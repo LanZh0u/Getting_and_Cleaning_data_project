@@ -2,16 +2,16 @@
 This code book describes the variables, the data, and any transformations to get "tidydata.csv" from the data source:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-# source data and decription is here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+## source data and decription is here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-# run_analysis.R performed the following analysis to obtain tidydata.csv, it requires R data.table module.
+## run_analysis.R performed the following analysis to obtain tidydata.csv, it requires R data.table module.
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# tidydata.csv description
+## tidydata.csv description
 tidydata.csv contains average values of the measurements of each activity for each subject. The dimension is 180 by 69.
 
 column 1 - subject: integar, from 1 to 30. (Total of 30 volunteers, subject represents the index of volunteers)
