@@ -28,7 +28,7 @@ column 3 - activity: character, the correspondense with activity index is:
 			
 column 4 to 69 - mean values of the 66 measurement variables. They are:
 
-mean_tBodyAcc-mean()-X\n
+mean_tBodyAcc-mean()-X
 mean_tBodyAcc-mean()-Y
 mean_tBodyAcc-mean()-Z
 mean_tBodyAcc-std()-X 
