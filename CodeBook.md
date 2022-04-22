@@ -15,7 +15,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 tidydata.csv contains average values of the measurements of each activity for each subject. The dimension is 180 by 69.
 
 column 1 - subject: integar, from 1 to 30. (Total of 30 volunteers, subject represents the index of volunteers)
+
 column 2 - activity.index: integar, from 1 to 6. (Total of 6 activities performed on each volunteers)
+
 column 3 - activity: character, the correspondense with activity index is:
 			1 WALKING
 			2 WALKING_UPSTAIRS
@@ -23,6 +25,7 @@ column 3 - activity: character, the correspondense with activity index is:
 			4 SITTING
 			5 STANDING
 			6 LAYING
+			
 column 4 to 69 - mean values of the 66 measurement variables. They are:
 mean_tBodyAcc-mean()-X
 mean_tBodyAcc-mean()-Y
